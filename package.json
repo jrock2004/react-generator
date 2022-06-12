@@ -1,0 +1,23 @@
+{
+  "name": "@jrock2004/react-generator",
+  "version": "0.1.0",
+  "description": "A generate that you can use to create things like components, tests, stories and such",
+  "main": "cli.js",
+  "repository": "git@github.com:jrock2004/react-generator.git",
+  "author": "John Costanzo <jrock2004@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "bin": {
+    "react-generator": "cli.js"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.2",
+    "@commitlint/config-conventional": "^17.0.2",
+    "husky": "^7.0.0",
+    "standard-version": "^9.5.0"
+  },
+  "scripts": {
+    "prepare": "husky install",
+    "release": "standard-version"
+  }
+}
