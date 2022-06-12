@@ -18,6 +18,7 @@
   },
   "scripts": {
     "prepare": "husky install",
-    "release": "standard-version"
+    "release": "standard-version",
+    "deploy": "npm publish --access public"
   }
 }
