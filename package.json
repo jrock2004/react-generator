@@ -1,6 +1,6 @@
 {
   "name": "@jrock2004/react-generator",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A generate that you can use to create things like components, tests, stories and such",
   "main": "cli.js",
   "repository": "git@github.com:jrock2004/react-generator.git",
